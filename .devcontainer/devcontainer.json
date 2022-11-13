@@ -1,0 +1,21 @@
+{
+	"name": "Gleam",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": { }
+	},
+	"runArgs": [
+		"--volume=${localWorkspaceFolder}:/workspaces/${localWorkspaceFolderBasename}:Z"
+	],
+
+	"workspaceMount": "",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"gleam.gleam",
+				"bungcip.better-toml",
+				"pgourlain.erlang"
+			]
+		}
+	}
+}

@@ -1,0 +1,18 @@
+name = "aoc_2022"
+version = "0.1.0"
+
+licences = ["BSD-3-Clause"]
+description = "Solutions for Advent Of Code, 2022"
+repository = { type = "github", user = "rhbvkleef", repo = "aoc-2022" }
+# links = [{ title = "Website", href = "https://gleam.run" }]
+
+[javascript]
+typescript_declarations = true
+
+[dependencies]
+gleam_stdlib = "~> 0.23"
+gleam_erlang = "~> 0.15"
+gleam_javascript = "~> 0.1"
+
+[dev-dependencies]
+gleeunit = "~> 0.6"
